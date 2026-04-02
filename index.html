@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsere Kurs-Erinnerungen - Schule in Jerman schule</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Audio Player Minimalis -->
+    <div class="music-player" id="musicPlayer">
+        <button id="playPauseBtn" class="music-btn">
+            <span id="musicIcon">🎵</span>
+        </button>
+        <div class="music-tooltip">Kurs-Erinnerungen ♪</div>
+    </div>
+
+    <div class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in">📚 Unser Kurs in Jerman Schule📚</h1>
+            <p class="subtitle fade-in-delay">Gemeinsam lernen • Gemeinsam wachsen • Unvergessliche Zeit</p>
+            <div class="scroll-indicator">
+                <span>📖</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-container">
+        <div class="section-title">
+            <h2>Unsere Kurs-Momente</h2>
+            <div class="title-line"></div>
+            <p>28 Erinnerungen an unsere gemeinsame Zeit in der Schule</p>
+        </div>
+
+        <div id="gallery" class="gallery">
+            <!-- Galeri akan diisi dengan JavaScript -->
+        </div>
+
+        <div class="footer-note">
+            <p>✨ Von der ersten Stunde bis zum Abschluss ✨</p>
+            <p class="small">Danke für jede gemeinsame Minute • Deutschland 2024/2026</p>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+        <div class="nav-buttons">
+            <button id="prevBtn">❮</button>
+            <button id="nextBtn">❯</button>
+        </div>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="music/background.mp3" type="audio/mpeg">
+        Musik tidak dapat diputar. File background.mp3 tidak ditemukan.
+    </audio>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
